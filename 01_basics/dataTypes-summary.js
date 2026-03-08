@@ -40,6 +40,14 @@ console.log(typeof undefined); //output is undefined
 console.log(typeof myFunction); //output is Function/object function
 
 
-
-
 //JS is a Dynamically typed language => means variable types are interpreted and assigned at run time.
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory types: Stack and Heap 
+// stack memory use with all primitive datatypes.
+// Heap memory is used with all non-primitive datatypes
+
+// when stack memory is used => we get a copy of variable we declared
+// when Heap memory is used => we get a  reference of original value.(jo bhi hm change krenge wo original value me change hota hai)
