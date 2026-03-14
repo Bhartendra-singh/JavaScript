@@ -69,3 +69,37 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //property h ya nhi pucchne ke liye
 
+
+
+// destructuring the objects=> extract values from objects and assign them to variables in a shorter, cleaner way. and You can rename variables while destructuring.
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course   //destructure the object
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+//JSON format: => keys and values both are written in double Quotes("")
+// {
+//    "name": "ritik",
+//     "coursename": "Js in hindi",
+//     "price": "free"
+// }
+
+//APIs in array format:
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
+
+
