@@ -9,7 +9,7 @@
 // }
 // else{
 // console.log("temperature is greater than 50");
-// }
+// }  
 
 
 // const score = 200
