@@ -42,7 +42,7 @@ const Books = [
     { title: 'Book Seven', genre: 'English', publish: 1995, edition: 2001},
     { title: 'Book Eight', genre: 'History', publish: 2000, edition: 2015},
     { title: 'Book Nine', genre: 'Science', publish: 1993, edition: 2017},
-]
+] 
 
 let userBooks = Books.filter(  (bk) => bk.genre === 'History') 
 
@@ -51,3 +51,4 @@ userBooks = Books.filter(  (bk) => {
 })
 
 console.log(userBooks);
+
